@@ -1,0 +1,98 @@
+
+
+C:\Users\Олександра>ITGDec.exe result2
+ITGDec version 2.8.1 (r1023)
+Compile-time options:
+/----------------------------------------------------------
+Flow number: 1
+From 10.0.1.2:52735
+To    10.0.2.2:17001
+----------------------------------------------------------
+Total time               =     31.084000 s
+Total packets            =           399
+Minimum delay            =      0.960000 s
+Maximum delay            =      2.135000 s
+Average delay            =      2.003845 s
+Average jitter           =      0.008709 s
+Delay standard deviation =      0.258541 s
+Bytes received           =         51072
+Average bitrate          =     13.144254 Kbit/s
+Average packet rate      =     12.836186 pkt/s
+Packets dropped          =            51 (11.33 %)
+Average loss-burst size  =      1.000000 pkt
+----------------------------------------------------------
+----------------------------------------------------------
+Flow number: 2
+From 10.0.1.2:52736
+To    10.0.2.2:25
+----------------------------------------------------------
+Total time               =     31.012000 s
+Total packets            =           199
+Minimum delay            =      0.957000 s
+Maximum delay            =      2.128000 s
+Average delay            =      1.905995 s
+Average jitter           =      0.008682 s
+Delay standard deviation =      0.333709 s
+Bytes received           =         25472
+Average bitrate          =      6.570876 Kbit/s
+Average packet rate      =      6.416871 pkt/s
+Packets dropped          =           250 (55.68 %)
+Average loss-burst size  =      3.086420 pkt
+----------------------------------------------------------
+----------------------------------------------------------
+Flow number: 3
+From 10.0.1.2:52737
+To    10.0.2.2:53
+----------------------------------------------------------
+Total time               =     31.065000 s
+Total packets            =           449
+Minimum delay            =      0.956000 s
+Maximum delay            =      2.118000 s
+Average delay            =      2.000171 s
+Average jitter           =      0.008618 s
+Delay standard deviation =      0.241195 s
+Bytes received           =         57472
+Average bitrate          =     14.800451 Kbit/s
+Average packet rate      =     14.453565 pkt/s
+Packets dropped          =             1 (0.22 %)
+Average loss-burst size  =      1.000000 pkt
+----------------------------------------------------------
+----------------------------------------------------------
+Flow number: 4
+From 10.0.1.2:52738
+To    10.0.2.2:80
+----------------------------------------------------------
+Total time               =     31.045000 s
+Total packets            =           449
+Minimum delay            =      0.973000 s
+Maximum delay            =      2.129000 s
+Average delay            =      2.009216 s
+Average jitter           =      0.008625 s
+Delay standard deviation =      0.240314 s
+Bytes received           =         57472
+Average bitrate          =     14.809986 Kbit/s
+Average packet rate      =     14.462876 pkt/s
+Packets dropped          =             1 (0.22 %)
+Average loss-burst size  =      1.000000 pkt
+----------------------------------------------------------
+
+__________________________________________________________
+****************  TOTAL RESULTS   ******************
+__________________________________________________________
+Number of flows          =             4
+Total time               =     31.147000 s
+Total packets            =          1496
+Minimum delay            =      0.956000 s
+Maximum delay            =      2.135000 s
+Average delay            =      1.991338 s
+Average jitter           =      0.010941 s
+Delay standard deviation =      0.261848 s
+Bytes received           =        191488
+Average bitrate          =     49.183035 Kbit/s
+Average packet rate      =     48.030308 pkt/s
+Packets dropped          =           303 (16.84 %)
+Average loss-burst size  =      2.261194 pkt
+Error lines              =             0
+----------------------------------------------------------
+
+C:\Users\Олександра>

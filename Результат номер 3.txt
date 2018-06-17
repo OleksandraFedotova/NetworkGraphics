@@ -1,0 +1,99 @@
+Microsoft Windows [Version 10.0.16299.431]
+(c) Корпорація Майкрософт (Microsoft Corporation), 2017. Усі права захищено.
+
+C:\Users\Олександра>ITGDec.exe result3
+ITGDec version 2.8.1 (r1023)
+Compile-time options:
+\----------------------------------------------------------
+Flow number: 1
+From 10.0.1.2:57359
+To    10.0.2.2:17001
+----------------------------------------------------------
+Total time               =     31.085000 s
+Total packets            =           507
+Minimum delay            =      0.961000 s
+Maximum delay            =      2.127000 s
+Average delay            =      2.040671 s
+Average jitter           =      0.008476 s
+Delay standard deviation =      0.191926 s
+Bytes received           =         64896
+Average bitrate          =     16.701560 Kbit/s
+Average packet rate      =     16.310117 pkt/s
+Packets dropped          =             3 (0.59 %)
+Average loss-burst size  =      1.000000 pkt
+----------------------------------------------------------
+----------------------------------------------------------
+Flow number: 3
+From 10.0.1.2:57357
+To    10.0.2.2:53
+----------------------------------------------------------
+Total time               =     31.041000 s
+Total packets            =           355
+Minimum delay            =      0.954000 s
+Maximum delay            =      2.136000 s
+Average delay            =      2.027814 s
+Average jitter           =      0.008576 s
+Delay standard deviation =      0.231798 s
+Bytes received           =         45440
+Average bitrate          =     11.710963 Kbit/s
+Average packet rate      =     11.436487 pkt/s
+Packets dropped          =           154 (30.26 %)
+Average loss-burst size  =      1.770115 pkt
+----------------------------------------------------------
+----------------------------------------------------------
+Flow number: 2
+From 10.0.1.2:57360
+To    10.0.2.2:25
+----------------------------------------------------------
+Total time               =     31.057000 s
+Total packets            =           502
+Minimum delay            =      0.979000 s
+Maximum delay            =      2.132000 s
+Average delay            =      2.045556 s
+Average jitter           =      0.008311 s
+Delay standard deviation =      0.191112 s
+Bytes received           =         64256
+Average bitrate          =     16.551760 Kbit/s
+Average packet rate      =     16.163828 pkt/s
+Packets dropped          =             8 (1.57 %)
+Average loss-burst size  =      1.000000 pkt
+----------------------------------------------------------
+----------------------------------------------------------
+Flow number: 4
+From 10.0.1.2:57358
+To    10.0.2.2:80
+----------------------------------------------------------
+Total time               =     31.094000 s
+Total packets            =           122
+Minimum delay            =      0.961000 s
+Maximum delay            =      2.136000 s
+Average delay            =      1.890549 s
+Average jitter           =      0.012289 s
+Delay standard deviation =      0.345377 s
+Bytes received           =         15616
+Average bitrate          =      4.017753 Kbit/s
+Average packet rate      =      3.923587 pkt/s
+Packets dropped          =           388 (76.08 %)
+Average loss-burst size  =      5.464789 pkt
+----------------------------------------------------------
+
+__________________________________________________________
+****************  TOTAL RESULTS   ******************
+__________________________________________________________
+Number of flows          =             4
+Total time               =     31.163000 s
+Total packets            =          1486
+Minimum delay            =      0.954000 s
+Maximum delay            =      2.136000 s
+Average delay            =      2.026925 s
+Average jitter           =      0.011146 s
+Delay standard deviation =      0.221910 s
+Bytes received           =        190208
+Average bitrate          =     48.829188 Kbit/s
+Average packet rate      =     47.684754 pkt/s
+Packets dropped          =           553 (27.12 %)
+Average loss-burst size  =      3.272189 pkt
+Error lines              =             0
+----------------------------------------------------------
+
+C:\Users\Олександра>

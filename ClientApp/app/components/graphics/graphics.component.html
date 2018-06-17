@@ -1,0 +1,16 @@
+﻿<h1>Internet trafic analizer</h1>
+
+<p>This component demonstrates analizing data from internet trafic generator resulting files.</p>
+
+<input #file type="file" multiple (change)="upload(file.files)" />
+<span *ngIf="uploadProgress > 0 && uploadProgress < 100">
+    {{uploadProgress}}%
+</span>
+
+<p *ngIf="!graphics"><em>Loading...</em></p>
+<p>{{graphics}}</p>
+<button (click)="generateGraphics()">Generate Graphics</button>
+
+<div id="container">
+
+</div>
