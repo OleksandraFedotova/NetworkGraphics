@@ -51,7 +51,7 @@ export class GraphicsComponent {
                         var chart: Chart = new Chart(ctx, {
                             type: 'line',
                             data: {
-                                labels: ['20', '61', '70', '78'],
+                                labels: ['20', '65', '70'],
                                 datasets: []
                             },
                             options: {
@@ -59,16 +59,21 @@ export class GraphicsComponent {
                             }
                         });
 
-                        var count = prop
+                        for (var flow in this.graphics[prop]) {
+                            if (prop.hasOwnProperty(flow)) {
 
-                        for (var potok in this.graphics.prop) {
-                            if (prop.hasOwnProperty(potok)) {
+                                var data = Object.keys(this.graphics[prop][flow]).map(e => {
+                                    return parseInt(this.graphics[prop][flow][e].match(/\d+/g));
+                                })
+
                                 var dataset = {
                                     backgroundColor: '#000000',
                                     borderWidth: 1,
-                                    label: '',
-                                    data: []
+                                    label: flow,
+                                    data: data
                                 }
+
+                                chart.data.datasets.push(dataset);
                             }
 
                         }

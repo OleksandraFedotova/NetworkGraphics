@@ -155,6 +155,12 @@
       "integrity": "sha1-N/6neWF8/sP9KxmgJH6LvdUTO/Y=",
       "dev": true
     },
+    "@types/chart.js": {
+      "version": "2.7.22",
+      "resolved": "https://registry.npmjs.org/@types/chart.js/-/chart.js-2.7.22.tgz",
+      "integrity": "sha512-H4dDOu4buD5h4hKqNLUTLSMtmqkinaViNY/UW+E/4gqlHlW6qqiPE34E0vEtGf90vYtwItP37llkCu7MeCCesQ==",
+      "dev": true
+    },
     "@types/jasmine": {
       "version": "2.5.53",
       "resolved": "https://registry.npmjs.org/@types/jasmine/-/jasmine-2.5.53.tgz",
@@ -257,6 +263,15 @@
       "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz",
       "integrity": "sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=",
       "dev": true
+    },
+    "angular2-router-loader": {
+      "version": "0.3.5",
+      "resolved": "https://registry.npmjs.org/angular2-router-loader/-/angular2-router-loader-0.3.5.tgz",
+      "integrity": "sha1-Kxj6loPg6Kqz6UL12ToR1jw3wwM=",
+      "dev": true,
+      "requires": {
+        "loader-utils": "0.2.17"
+      }
     },
     "angular2-template-loader": {
       "version": "0.6.2",
@@ -980,7 +995,7 @@
     "chart.js": {
       "version": "2.7.2",
       "resolved": "https://registry.npmjs.org/chart.js/-/chart.js-2.7.2.tgz",
-      "integrity": "sha512-90wl3V9xRZ8tnMvMlpcW+0Yg13BelsGS9P9t0ClaDxv/hdypHDr/YAGf+728m11P5ljwyB0ZHfPKCapZFqSqYA==",
+      "integrity": "sha1-PJ/eTcW5VgghG97+2n5dM9/6VxQ=",
       "requires": {
         "chartjs-color": "2.2.0",
         "moment": "2.22.2"
@@ -998,7 +1013,7 @@
     "chartjs-color-string": {
       "version": "0.5.0",
       "resolved": "https://registry.npmjs.org/chartjs-color-string/-/chartjs-color-string-0.5.0.tgz",
-      "integrity": "sha512-amWNvCOXlOUYxZVDSa0YOab5K/lmEhbFNKI55PWc4mlv28BDzA7zaoQTGxSBgJMHIW+hGX8YUrvw/FH4LyhwSQ==",
+      "integrity": "sha1-jTdS2Fgdhmh8Nb/iy4CsUhPOuME=",
       "requires": {
         "color-name": "1.1.2"
       }
@@ -2269,7 +2284,7 @@
     "fsevents": {
       "version": "1.2.4",
       "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-1.2.4.tgz",
-      "integrity": "sha512-z8H8/diyk76B7q5wg+Ud0+CqzcAF3mBBI/bA5ne5zrRUUIvNkJY//D3BqyH571KuAC4Nr7Rw7CjWX4r0y9DvNg==",
+      "integrity": "sha1-9B3LGvJYKvNpLaNvxVy9jhBBxCY=",
       "dev": true,
       "optional": true,
       "requires": {
@@ -3937,7 +3952,7 @@
     "nan": {
       "version": "2.10.0",
       "resolved": "https://registry.npmjs.org/nan/-/nan-2.10.0.tgz",
-      "integrity": "sha512-bAdJv7fBLhWC+/Bls0Oza+mvTaNQtP+1RyhhhvD95pgUJz6XM5IzgmxOkItJ9tkoCiplvAnXI1tNmmUD/eScyA==",
+      "integrity": "sha1-ltDNYQ69WNS03pzAxoKM2pnHVI8=",
       "dev": true,
       "optional": true
     },
